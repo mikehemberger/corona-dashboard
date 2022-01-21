@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # Later download the csv daily anew > link to github
 df = pd.read_csv("./corona_ts.csv", parse_dates=True)
