@@ -7,11 +7,14 @@ The interesting results from this exploration are then integrated into the strea
 streamlit run app.py
 ```
 
+### Streamlit info
+deploy app: https://share.streamlit.io/signup (Once deployed, reachable: https://share.streamlit.io/mikehemberger/corona-dashboard/main/app.py
+)
+python api: https://docs.streamlit.io/library/api-reference
 
+### Data and sources
+- Infection numbers timeseries: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
+- Virus variants: https://www.ecdc.europa.eu/en/publications-data/data-virus-variants-covid-19-eueea
+- Big diverse data: https://www.ecdc.europa.eu/en/covid-19/data
+- RKI dashboard: https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4/page/Bundesl%C3%A4nder/
 
-### Data sources
-- https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
-
-
-Embed already existing dashboard into website / streamlit app >>> maybe later
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="COVID-19" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe></div>
